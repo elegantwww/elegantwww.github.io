@@ -92,8 +92,6 @@
 				        
 							<li><a href="/tags/随笔">随笔tags</a></li>
 				        
-							<li><a href="/atom.xml">rss</a></li>
-				        
 						</ul>
 					</nav>
 					<nav class="header-nav">
@@ -165,8 +163,6 @@
 		        
 					<li><a href="/tags/随笔">随笔tags</a></li>
 		        
-					<li><a href="/atom.xml">rss</a></li>
-		        
 		        <div class="clearfix"></div>
 				</ul>
 			</nav>
@@ -187,67 +183,6 @@
 	</div>
 </nav>
       <div class="body-wrap">
-  
-    <article id="photo-福利gallery" class="article article-type-photo" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/09/11/福利gallery/" class="article-date">
-  	<time datetime="2015-09-11T10:53:48.000Z" itemprop="datePublished">2015-09-11</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/09/11/福利gallery/">福利gallery</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>photos:</p>
-<ul>
-<li><a href="http://bruce.u.qiniudn.com/2013/11/27/reading/photos-0.jpg" target="_blank" rel="external">http://bruce.u.qiniudn.com/2013/11/27/reading/photos-0.jpg</a></li>
-<li><a href="http://bruce.u.qiniudn.com/2013/11/27/reading/photos-1.jpg" target="_blank" rel="external">http://bruce.u.qiniudn.com/2013/11/27/reading/photos-1.jpg</a></li>
-</ul>
-<h2 id="DNS设置">DNS设置</h2><ol>
-<li>www.dnspod.cn</li>
-<li>注册-添加域名-导入主机记录</li>
-<li>CNAME:  elegantwww.github.io</li>
-<li>再把dns 填到域名商处（万网）</li>
-</ol>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
   
     <article id="post-Pause" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -347,12 +282,21 @@
 </ol>
 <hr>
 <h2 id="github_步骤">github 步骤</h2><ol>
-<li><strong>配置SSH keys</strong>: Git shell,<br>$ $ cd ~/.ssh</li>
-<li><strong>生成新的SSH Key</strong>:  后回车<br>$ $ ssh-keygen -t rsa -C “邮件地址@youremail.com”</li>
-<li>打开C:\Users\Zing4.ssh下的id_rsa.pub</li>
+<li><p><strong>配置SSH keys</strong>: Git shell, </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>生成新的SSH Key</strong>:  后回车</p>
+<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -<span class="keyword">C</span> <span class="string">"邮件地址@youremail.com"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>打开C:\Users\Zing4.ssh下的id_rsa.pub</p>
+</li>
 <li>在web上的用户setting下的ssh keys下add:</li>
-<li>测试<br>$ $ ssh -T git@github.com</li>
-<li>设置用户信息<br>$ $ git config –global user.name “elegantwww”<br>git config –global user.email “elegantwww@gmail.com”</li>
+<li><p>测试</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">ssh</span> -T git<span class="variable">@github</span>.com</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>设置用户信息</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user<span class="class">.name</span> <span class="string">"elegantwww"</span></span><br><span class="line">git config --global user<span class="class">.email</span> <span class="string">"elegantwww@gmail.com"</span></span><br></pre></td></tr></table></figure>
+</li>
 </ol>
       
     </div>
