@@ -19,7 +19,7 @@ github 步骤
 生成新的SSH Key:  后回车$ $ ssh-keygen -t rsa -C “邮件地址@youremail.com">
 <meta property="og:type" content="article">
 <meta property="og:title" content="github pages 下 hexo 搭建静态博客试水">
-<meta property="og:url" content="http://yoursite.com/2015/09/10/blog1/index.html">
+<meta property="og:url" content="http://www.elegantwww.com/2015/09/10/blog1/index.html">
 <meta property="og:site_name" content="elegantwww">
 <meta property="og:description" content="引用cnFeat金石开hexo官网hexo下主题yilia
 
@@ -34,7 +34,7 @@ github 步骤
 配置SSH keys: Git shell,$ $ cd ~/.ssh
 生成新的SSH Key:  后回车$ $ ssh-keygen -t rsa -C “邮件地址@youremail.com">
 <meta property="og:image" content="http://127.0.0.1:8912/api/file/getImage?fileId=55f05c194f71f32089000000">
-<meta property="og:updated_time" content="2015-09-11T08:34:48.000Z">
+<meta property="og:updated_time" content="2015-09-11T10:47:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="github pages 下 hexo 搭建静态博客试水">
 <meta name="twitter:description" content="引用cnFeat金石开hexo官网hexo下主题yilia
@@ -71,6 +71,8 @@ github 步骤
 		  <h1 class="header-author"><a href="/">elegantwww</a></h1>
 		</hgroup>
 
+		
+		<p class="header-subtitle">向往一个更美好的世界！</p>
 		
 
 		
@@ -121,9 +123,11 @@ github 步骤
 					<nav class="header-menu">
 						<ul>
 						
-							<li><a href="/">主页</a></li>
-				        
 							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/tags/随笔">随笔tags</a></li>
+				        
+							<li><a href="/atom.xml">rss</a></li>
 				        
 						</ul>
 					</nav>
@@ -136,6 +140,8 @@ github 步骤
 					        
 								<a class="douban" target="_blank" href="http://www.douban.com/people/elegantwww/" title="douban">douban</a>
 					        
+								<a class="mail" target="_blank" href="/#" title="mail">mail</a>
+					        
 						</div>
 					</nav>
 				</section>
@@ -143,7 +149,7 @@ github 步骤
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						
+						<a href="/tags/tech/" style="font-size: 10px;">tech</a> <a href="/tags/文档/" style="font-size: 10px;">文档</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
 					</div>
 				</section>
 				
@@ -185,12 +191,16 @@ github 步骤
 			  <h1 class="header-author">elegantwww</h1>
 			</hgroup>
 			
+			<p class="header-subtitle">向往一个更美好的世界！</p>
+			
 			<nav class="header-menu">
 				<ul>
 				
-					<li><a href="/">主页</a></li>
-		        
 					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/tags/随笔">随笔tags</a></li>
+		        
+					<li><a href="/atom.xml">rss</a></li>
 		        
 		        <div class="clearfix"></div>
 				</ul>
@@ -203,6 +213,8 @@ github 步骤
 						<a class="zhihu" target="_blank" href="http://www.zhihu.com/people/elegantwww" title="zhihu">zhihu</a>
 			        
 						<a class="douban" target="_blank" href="http://www.douban.com/people/elegantwww/" title="douban">douban</a>
+			        
+						<a class="mail" target="_blank" href="/#" title="mail">mail</a>
 			        
 				</div>
 			</nav>
@@ -234,6 +246,10 @@ github 步骤
       
       <div class="article-info article-info-post">
         
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
+	</div>
+
         
 
         <div class="clearfix"></div>
@@ -259,6 +275,7 @@ github 步骤
 <li>测试<br>$ $ ssh -T git@github.com</li>
 <li>设置用户信息<br>$ $ git config –global user.name “elegantwww”<br>git config –global user.email “elegantwww@gmail.com”</li>
 </ol>
+<a id="more"></a>
 <hr>
 <h2 id="hexo_步骤">hexo 步骤</h2><ol>
 <li>安装 node.js</li>
@@ -301,6 +318,59 @@ github 步骤
 <h2 id="文章">文章</h2><ol>
 <li>题目可以直接在_post下的md文件改下就行了。</li>
 </ol>
+<hr>
+<p>##购买域名-失败</p>
+<ol>
+<li><a href="www.godaddy.com">godaddy</a></li>
+<li><a href="http://www.dute.me/" target="_blank" rel="external">优惠码</a> </li>
+<li><a href="http://www.laodong.me/" target="_blank" rel="external">老董优惠码</a><br>选择的是，35%，CJCRMN35</li>
+<li>【问题】首先是出现：There was a problem processing your transaction. Please verify your payment information or use an alternate form of payment.</li>
+<li>换了优惠码，却发现支付总是不能减免，故放弃。</li>
+</ol>
+<hr>
+<p>##万网购买</p>
+<ol>
+<li>使用 <strong>阿里云-万网服务</strong></li>
+<li>购买了域名后，<strong>云解析</strong>。（查ip，并把ip 指向网站）</li>
+</ol>
+<hr>
+<p>##将独立域名与GitHub Pages的空间绑定</p>
+<ul>
+<li><p>方法一：在Repository的根目录下面，新建一个名为CNAME的文本文件，里面写入你要绑定的域名，比如cnfeat.com。</p>
+</li>
+<li><p>方法二：到我的github仓库，点击右下角的「Download ZIP」，下载源文件，解压，找到CNAME文件，用记事本打开，将cnfeat.com修改成你的域名，放进Hexo\source目录下，用hexo命令提交上去。<br>$ hexo d -g</p>
+</li>
+</ul>
+<hr>
+<p>##DNS设置</p>
+<ol>
+<li>www.dnspod.cn</li>
+<li>注册-添加域名-导入主机记录</li>
+<li>CNAME:  elegantwww.github.io</li>
+<li>再把dns 填到域名商处（万网）</li>
+</ol>
+<hr>
+<h2 id="网站图标">网站图标</h2><ol>
+<li>比特虫 制做ico ： <a href="http://www.bitbug.net/" target="_blank" rel="external">http://www.bitbug.net/</a></li>
+<li><p>看一下hexo\themes\modernist\layout_partial\head.ejs，找到这句：</p>
+<figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">link</span> <span class="attribute">rel</span>=<span class="value">"icon"</span> <span class="attribute">href</span>=<span class="value">"</span></span></span>&lt;%-<span class="ruby"> theme.favicon </span>%&gt;<span class="xml"><span class="tag"><span class="value">"</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>将favicon.ico放到工程根目录下即可，也就是hexo\source目录。</p>
+</li>
+<li>备注代码：<figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">link</span> <span class="attribute">rel</span>=<span class="value">"icon"</span> <span class="attribute">type</span>=<span class="value">"image/x-icon"</span> <span class="attribute">href</span>=<span class="value">"</span></span></span>&lt;%-<span class="ruby"> config.root </span>%&gt;<span class="xml"><span class="tag"><span class="value">favicon.ico"</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<hr>
+<h2 id="rss">rss</h2><ol>
+<li>安装插件<br>$ npm install hexo-generator-feed</li>
+<li>全局配置文件开启插件<br>$$ plugins:</li>
+</ol>
+<ul>
+<li>hexo-generator-feed</li>
+</ul>
+<ol>
+<li>主题配置文件添加入口<br>$ $ rss: /atom.xml</li>
+</ol>
 
       
     </div>
@@ -320,7 +390,7 @@ github 步骤
     </a>
   
   
-    <a href="/2015/09/07/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2007/10/01/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
       <div class="article-nav-title">Hello World</div>
       <strong class="article-nav-caption">></strong>
     </a>
@@ -350,7 +420,7 @@ github 步骤
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="blog1" data-title="github pages 下 hexo 搭建静态博客试水" data-url="http://yoursite.com/2015/09/10/blog1/"></div>
+	<div class="ds-thread" data-thread-key="blog1" data-title="github pages 下 hexo 搭建静态博客试水" data-url="http://www.elegantwww.com/2015/09/10/blog1/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
@@ -443,6 +513,10 @@ MathJax.Hub.Queue(function() {
 </script>
 
 
+  </div>
+
+  <div class="fixed">
+  <a href="https://github.com/you"><img style="position: fixed; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/8b6b8ccc6da3aa5722903da7b58eb5ab1081adee/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png"></a>
   </div>
 </body>
 </html>
