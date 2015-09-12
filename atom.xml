@@ -4,7 +4,7 @@
   <subtitle><![CDATA[向往一个更美好的世界！]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.elegantwww.com/"/>
-  <updated>2015-09-11T09:42:31.000Z</updated>
+  <updated>2015-09-12T14:10:35.000Z</updated>
   <id>http://www.elegantwww.com/</id>
   
   <author>
@@ -13,6 +13,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[gallery post]]></title>
+    <link href="http://www.elegantwww.com/2015/09/12/gallery%20post/"/>
+    <id>http://www.elegantwww.com/2015/09/12/gallery post/</id>
+    <published>2015-09-12T14:08:04.000Z</published>
+    <updated>2015-09-12T14:10:35.000Z</updated>
+    <content type="html"><![CDATA[<p>This post contains 4 photos:</p>
+<ul>
+<li>Widescreen wallpaper</li>
+<li>Portrait photo</li>
+<li>Dual widescreen wallpaper</li>
+<li>Small photo</li>
+</ul>
+<p>All photos should be displayed properly.</p>
+<p><em>From <a href="http://wallbase.cc" target="_blank" rel="external">Wallbase.cc</a></em></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>This post contains 4 photos:</p>
+<ul>
+<li>Widescreen wallpaper</li>
+<li>Portrait photo</li>
+<li>Dual widescreen wallpaper</li>
+<li>Small ]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Pause]]></title>
@@ -43,7 +70,7 @@
     <link href="http://www.elegantwww.com/2015/09/10/blog1/"/>
     <id>http://www.elegantwww.com/2015/09/10/blog1/</id>
     <published>2015-09-10T04:56:31.000Z</published>
-    <updated>2015-09-11T15:01:39.000Z</updated>
+    <updated>2015-09-12T11:39:42.000Z</updated>
     <content type="html"><![CDATA[<h2 id="引用">引用</h2><p><a href="http://cnfeat.com/blog/2014/05/10/how-to-build-a-blog/" target="_blank" rel="external">cnFeat</a><br><a href="http://www.cnblogs.com/zhcncn/" target="_blank" rel="external">金石开</a><br><a href="https://hexo.io/zh-cn/docs/setup.html" target="_blank" rel="external">hexo官网</a><br><a href="http://litten.github.io/" target="_blank" rel="external">hexo下主题yilia</a></p>
 <hr>
 <h2 id="总结">总结</h2><p>[toc]</p>
@@ -237,7 +264,7 @@
     <link href="http://www.elegantwww.com/2015/06/08/Harry-met-Sally/"/>
     <id>http://www.elegantwww.com/2015/06/08/Harry-met-Sally/</id>
     <published>2015-06-08T14:52:49.000Z</published>
-    <updated>2015-09-11T15:04:11.000Z</updated>
+    <updated>2015-09-12T12:29:50.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>又一部非常经典的电影。</p>
 </blockquote>
@@ -251,7 +278,7 @@
 <h2 id="【Quote】"><em>【Quote】</em></h2><p>   男女不能做朋友，是因为性；修订，男女不能做朋友，除非都有伴侣。<br>   距首次结婚后35年，我们又结婚了。<br>   Harry: Helen: I don’t know if I’ve ever loved you.<br>   Don’t fuck with Mr Zero.<br>   You are the most obnoxous man.<br>   现在我知道了上帝给我们的道歉期限是十年。<br>   女人只有两种：简单的，和要求多的。<br>   现在挂电话吧，我还要醒着，呻吟。<br>   关于性幻想：Harry,奥运裁判面前xxoo打分；Sally,无面男撕开自己的衣服。<br>   Girl’s nightmare: thin, pretty, big tits.<br>   人的一年是狗的七年。<br>   打电话不接无非三种情况：A,不在；B,在，不想接；C,在，想接但过不了心理关。</p>
 <h2 id="【period】"><em>【period】</em></h2><p>   1977.Chicago; 5年后，3年后，5年后（Sally,32岁）<br>   Harry和朋友在棒球场的聊天也很有意思，一波一波的，很有现实感。<br>   在餐厅使Sally meowed.<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">十二年又三个月，他们终于结婚了。</span><br></pre></td></tr></table></figure></p>
 <hr>
-<p><img src="http://127.0.0.1:8912/api/file/getImage?fileId=55f2ea1ccf95f84e6c000000" alt=""></p>
+<p><img src="http://7xlooe.com1.z0.glb.clouddn.com/When%20Harry%20Met%20Sally%201989%20Poster%202.jpg" alt="SallyAndHarry"></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<blockquote>
